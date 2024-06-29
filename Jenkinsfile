@@ -73,7 +73,7 @@ pipeline {
                 }
             }
         }
-         Perform DAST Test on Application
+         //Perform DAST Test on Application
          stage('ZAP Dynamic Testing | DAST') {
              steps {
                  sshagent(['OWASP-Zap-Credential']) {
